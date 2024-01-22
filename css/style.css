@@ -1,0 +1,131 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gilroy-Bold"), url(../fonts/Gilroy-Bold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Gilroy-Medium"), url(../fonts/Gilroy-Medium.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy-Semibold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("Gilroy-SemiBold"), url(../fonts/gilroy-semibold.woff) format("woff");
+}
+
+:root {
+  --special-orange: #f25822;
+}
+
+body {
+  background: #fff;
+  color: #000;
+  font-family: "Gilroy-Bold";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.content {
+  padding: 0 calc(19.53vw);
+}
+
+header {
+  padding-top: 40px;
+  padding-bottom: 84px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav {
+  padding-top: 11px;
+  width: 533px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 24px;
+  display: flex;
+}
+
+.header__span1 {
+  padding-left: 14px;
+  padding-top: 5px;
+}
+
+.header__span2 {
+  padding-top: 5px;
+  color: var(--special-orange);
+}
+
+.header__nav__link {
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+}
+
+.header__nav__link_1 {
+  font-family: "Gilroy-SemiBold";
+  color: var(--special-orange);
+}
+
+.main {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main__content {
+  max-width: 522px;
+  margin-right: 41px;
+}
+
+.main__h1 {
+  margin-bottom: 17px;
+  font-size: 60px;
+}
+
+.main__h2 {
+  margin-bottom: 37px;
+  font-size: 20px;
+  color: #888;
+}
+
+.main__button__start-now {
+  background-color: var(--special-orange);
+  border-radius: 50px;
+  border: none;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  font-size: 15px;
+  color: #fff;
+  padding: 15px 36px 16px 36px;
+  margin-right: 72px;
+}
+
+.main__link__start-now {
+  font-size: 15px;
+  color: #aaa;
+}
+
+footer {
+  margin-top: 260px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
